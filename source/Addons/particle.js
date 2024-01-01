@@ -1,4 +1,4 @@
-import * as pjs from "/source/modules/index.js"
+import * as pjs from "../modules/index.js"
 export class Particle {
     constructor(x, y, size, color, speedX, speedY, lifespan, alphaReducer) {
         this.x = x;

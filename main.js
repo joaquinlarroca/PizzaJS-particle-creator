@@ -1,5 +1,5 @@
-import * as pjs from "/source/modules/index.js"
-import * as p from "/source/Addons/particle.js"
+import * as pjs from "./source/modules/index.js"
+import * as p from "./source/Addons/particle.js"
 
 
 pjs.setup(1920, 1080, 1, true);
@@ -9,8 +9,6 @@ let ui_bg = "#444444"
 let ui_button_bg = "#333333"
 
 let ui_button_color = "#fc7c51"
-
-pjs.loadFont("FiraCode", "/source/fonts/FiraCode/FiraCode-Regular.ttf")
 
 let particleCount = new pjs.slider(`color: ${ui_button_bg}`, "color: #FFFFFF", [1440, 64], [256, 64], 24, [1, 64], ui_button_color, 1)
 
